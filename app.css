@@ -1,0 +1,73 @@
+text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    pointer-events: none;
+}
+
+
+
+.regional {
+  fill: none;
+  stroke: #a9a9a9;
+  stroke-width: 1;
+}
+.regional:hover { fill-opacity:0.5; }
+.regional.BAN { fill: #C4D1E5; }
+.regional.BOV { fill: #F1D5E3; }
+.regional.BOQ { fill: #FDE69C; }
+.regional.CAJ { fill: #D5E48E; }
+.regional.CIC { fill: #F8BC7B; }
+.regional.MAT { fill: #FDFBD9; }
+.regional.PIN { fill: #E2BBA8; }
+.regional.POR { fill: #A2C9CC; }
+.regional.SAF { fill: #C2E1C5; }
+.regional.TAT { fill: #F09898; }
+
+.regional-label {
+  fill: #777;
+  fill-opacity: .5;
+  font-size: 13px;
+  font-weight: 300;
+  text-anchor: middle;
+}
+
+
+            
+#tooltip {   
+    position: absolute;           
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font: 12px sans-serif;
+    pointer-events: none;
+    border: 1px;
+    border-radius: 2px;
+}
+#tooltip{
+    background:rgba(0,0,0,0.9);
+    border:1px solid grey;
+    border-radius:5px;
+    font-size:12px;
+    width:auto;
+    padding:4px;
+    color:white;
+    opacity:0;
+    
+}
+/*#tooltip h4{
+    margin:0;
+    font-size:14px;
+}
+#tooltip table{
+    table-layout:fixed;
+}
+#tooltip tr td{
+    padding:0;
+    margin:0;
+    color:white;
+}
+#tooltip tr td:nth-child(1){
+    width:50px;
+}
+#tooltip tr td:nth-child(2){
+    text-align:center;
+}*/
