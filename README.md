@@ -1,2 +1,2 @@
 # cwb-regionais-d3
-Mapa das regionais de Curitiba utilizando D3.js
+Mapa das regionais de Curitiba utilizando o D3.js.
